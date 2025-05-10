@@ -1,90 +1,50 @@
-# 💻 Projeto de IoT para o Agronegócio
+# 📱 Protótipo Funcional – MIT App Inventor
 
-Repositório de apoio à disciplina **Projeto de IoT para o Agronegócio**, do curso **Tecnologia em Big Data no Agronegócio**. Este espaço é destinado à organização dos projetos desenvolvidos pelos alunos, com documentação, códigos, esquemas e apresentações.
+Este repositório contém os arquivos referentes à entrega do protótipo funcional desenvolvido utilizando o **MIT App Inventor**. O protótipo simula as funcionalidades principais de um aplicativo voltado para [descrição breve da proposta do app].
 
----
+## 📦 Conteúdo da Entrega
 
-## 📚 Objetivo da Disciplina
+| Arquivo/Pasta              | Descrição                                                   |
+|----------------------------|-------------------------------------------------------------|
+| `prototipo.aia`            | Arquivo fonte do projeto no MIT App Inventor               |
+| `manual_do_usuario.pdf`    | Documento com instruções de uso e funcionalidades do app   |
+| `prints_telas/`            | Pasta contendo capturas de tela do protótipo em execução   |
+| `README.md`                | Este arquivo, com a descrição da entrega                   |
 
-Capacitar os alunos a desenvolverem soluções utilizando **Internet das Coisas (IoT)** aplicadas ao setor do agronegócio, por meio da construção de projetos práticos, com foco em sensores, conectividade, automação, monitoramento remoto e análise de dados.
+## ✅ Funcionalidades Implementadas
 
----
+- [ ] Tela inicial com login ou acesso direto
+- [ ] Menu com funcionalidades principais
+- [ ] Armazenamento local ou uso de TinyDB
+- [ ] Interações com sensores (se aplicável)
+- [ ] Navegação entre telas
 
-## 📁 Estrutura Recomendada do Projeto
+> *Marque as opções acima conforme o que foi implementado.*
 
-Cada grupo deve organizar seu projeto neste formato:
+## 🛠️ Requisitos para Execução
 
-```
-/nome-do-projeto
-├── docs/                   # Documentação do projeto (PDFs, imagens, relatórios)
-├── firmware/               # Código para Arduino, ESP32, NodeMCU etc.
-├── dashboard/              # Código da interface de visualização (web/mobile)
-├── diagramas/              # Diagramas esquemáticos e arquiteturais
-├── testes/                 # Scripts ou registros de testes realizados
-└── README.md               # Apresentação do projeto
-```
+1. Acesse o site [MIT App Inventor](https://ai2.appinventor.mit.edu/)
+2. Importe o arquivo `prototipo.aia` através da opção **"Import project (.aia) from my computer"**
+3. Compile para APK ou use o **AI2 Companion** no celular para testes
 
----
+## 📸 Capturas de Tela
 
-## 📌 Entregas Esperadas
+As imagens abaixo ilustram algumas telas do protótipo:
 
-1. Documento de Definição do Projeto  
-2. Levantamento de Requisitos e Tecnologias  
-3. Protótipo Funcional com Relatório de Testes  
-4. Interface para Visualização dos Dados  
-5. Apresentação Final  
+![Tela Inicial](prints_telas/tela_inicial.png)
+![Funcionalidade X](prints_telas/funcionalidade_x.png)
 
----
+## 📄 Manual do Usuário
 
-## 🛠 Tecnologias e Ferramentas Sugeridas
+O manual detalha como utilizar cada funcionalidade do aplicativo, bem como o objetivo do protótipo. Ele pode ser encontrado em:  
+[`manual_do_usuario.pdf`](manual_do_usuario.pdf)
 
-- **Placas:** Arduino UNO, ESP8266, ESP32, NodeMCU  
-- **Sensores:** DHT11, DHT22, Sensor de Umidade do Solo, Sensor de Gás, RFID, etc.  
-- **Comunicação:** Wi-Fi, LoRa, Bluetooth  
-- **Plataformas:** Blynk, ThingSpeak, Node-RED, Firebase, MQTT  
-- **Programação:** C/C++, Python, JavaScript  
-- **Interfaces:** HTML/CSS, React, Dash, Flask  
+## 👨‍💻 Desenvolvedores
 
----
-
-## 📎 Recursos Úteis
-
-- [Guia de Instalação do Arduino IDE](https://www.arduino.cc/en/software)
-- [Documentação do ESP32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
-- [ThingSpeak IoT Platform](https://thingspeak.com/)
-- [Node-RED Flow Editor](https://nodered.org/)
+- Nome do(a) Aluno(a) -
+- Curso: [Projeto De IoT]
+- Instituição: Fatec Bebedouro
+- Período: [2025/Primeiro Semestre]
 
 ---
 
-## 🤝 Contribuição
-
-Cada grupo deverá criar uma pasta com o nome do projeto e seguir a estrutura sugerida. As entregas devem ser feitas por **pull request** até os prazos estipulados pelo professor.
-
----
-
-## 👨‍🏫 Professor Responsável
-
-- **Nome:** Antonio Fernando Traina  
-- **Email:** antonio.traina@fatec.sp.gov.br  
-- **Instituição:** Fatec Bebedouro
-
----
-
-## 📅 Cronograma da Disciplina
-
-| Semana | Atividade |
-|--------|-----------|
-| 1-2    | Introdução e escolha do problema |
-| 3-4    | Documento de Definição do Projeto |
-| 5-6    | Levantamento de requisitos e tecnologias |
-| 7-10   | Desenvolvimento do protótipo |
-| 11-13  | Interface de visualização e testes |
-| 14-15  | Ajustes finais e documentação |
-| 16     | Apresentação dos projetos |
-
----
-##Trabalho dos alunos
-
-
-
-## 🚀 Vamos construir soluções inovadoras para o campo! 🌾
